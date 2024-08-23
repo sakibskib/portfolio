@@ -15,7 +15,7 @@ const AboutDetails = () => {
             Architect of Enchantment
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
+            My journey in web development amar naam sakib is powered by an array of mystical
             tools and languages, with JavaScript casting the core of my
             enchantments. I wield frameworks like React.js and Next.js with
             precision, crafting seamless portals (websites) that connect realms
