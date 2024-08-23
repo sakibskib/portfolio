@@ -17,21 +17,20 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
       <Image
-      // eikhaney background image ashtese ? kireh bhai jas nah ken
-      //bg src er eita change kora lagbey
+      
         priority
         sizes="100vw"
         src={bg}
         alt="background-image"
         fill
         className="-z-50 w-full h-full object-cover object-center opacity-50"
-        //opacity changge kortey paros
+        //opacity 
       />
 
       <div className="w-full h-screen">
         <Navigation />
         <RenderModel>
-          {/* // eikhaney 3d model aschey */}
+          {/* // eikhaney 3d model aschey robot bhai jindabad */}
           <Robotbhai />
 
          
