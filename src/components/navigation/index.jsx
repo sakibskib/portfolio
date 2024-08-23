@@ -17,7 +17,7 @@ const container = {
 };
 
 const Navigation = () => {
-  const angleIncrement = 360 / BtnList.length;
+  const angleIncrement = 360 / BtnList.length; 
   const size = useScreenSize();
   const isLarge = size >= 1024;
   const isMedium = size >= 768;
@@ -34,7 +34,7 @@ const Navigation = () => {
               className="w-max flex items-center justify-center relative hover:pause animate-spin-slow group"
             >
               {BtnList.map((btn, index) => {
-                const angleRad = (index * angleIncrement * Math.PI) / 180;
+                const angleRad = (index * angleIncrement * Math.PI) / 180; //angle value in radian format
                 const radius = isLarge
                   ? "calc(20vw - 1rem)"
                   : isMedium
@@ -42,7 +42,7 @@ const Navigation = () => {
                   : "calc(40vw - 1rem)";
                 const x = `calc(${radius}*${Math.cos(angleRad)})`;
                 const y = `calc(${radius}*${Math.sin(angleRad)})`;
-
+                // console.log(index, angleRad, radius, x,y)
                 return <NavButton key={btn.label} x={x} y={y} {...btn} />;
               })}
             </motion.div>
