@@ -11,7 +11,7 @@ export default function Contact() {
     <>
       <Image
         src={bg}
-        alt="SK Sakib Portfolio website's contact page background image"
+        alt="SK Sakib Portfolio website/s contact page background image"
         priority
         sizes="100vw"
         className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-50"
@@ -23,9 +23,9 @@ export default function Contact() {
             summon the wizard
           </h1>
           <p className="text-center font-light text-sm xs:text-base">
-          Hi there! I'm SK Sakib, a computer science enthusiast with a knack for code, collaboration, and creation. Immersed in the world of software architecture, web innovation, and machine learning, I thrive on turning complex problems into elegantly crafted solutions.
+          Hi there! I/m SK Sakib, a computer science enthusiast with a knack for code, collaboration, and creation. Immersed in the world of software architecture, web innovation, and machine learning, I thrive on turning complex problems into elegantly crafted solutions.
           <br/>
-            Let's forge new connections! Feel free to drop me an email or connect on LinkedIn. Whether you're brimming with internship offers, job prospects, learning opportunities, or just need a tech-savvy problem-solver, I'd love to hear from you. Also, reach out to me if you believe I can help you somehow.
+            Let/s forge new connections! Feel free to drop me an email or connect on LinkedIn. Whether you/re brimming with internship offers, job prospects, learning opportunities, or just need a tech-savvy problem-solver, I/d love to hear from you. Also, reach out to me if you believe I can help you somehow.
           </p>
         </div>
         <Form />
