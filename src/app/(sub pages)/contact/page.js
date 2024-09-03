@@ -11,7 +11,7 @@ export default function Contact() {
     <>
       <Image
         src={bg}
-        alt="Next.js Portfolio website's contact page background image"
+        alt="SK Sakib Portfolio website's contact page background image"
         priority
         sizes="100vw"
         className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-50"
@@ -23,9 +23,9 @@ export default function Contact() {
             summon the wizard
           </h1>
           <p className="text-center font-light text-sm xs:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur fermentum neque. Integer pretium sed diam et semper. Nam porttitor dui nisl, sodales pretium nisi venenatis volutpat. Aliquam aliquam aliquam ante at convallis. Sed a enim vitae nunc sagittis eleifend. Phasellus vehicula lobortis velit sit amet euismod. Morbi tempor dignissim libero, a porta ex facilisis at. Proin sagittis, nibh ut lacinia faucibus, mauris lacus convallis quam, id auctor dolor dolor quis velit. Cras lobortis dolor a elementum semper.
-
-Donec non metus in est tincidunt efficitur quis at lectus. Mauris ullamcorper vel tortor vel facilisis. Suspendisse pharetra erat lacus, id fermentum.
+          Hi there! I'm SK Sakib, a computer science enthusiast with a knack for code, collaboration, and creation. Immersed in the world of software architecture, web innovation, and machine learning, I thrive on turning complex problems into elegantly crafted solutions.
+          <br/>
+            Let's forge new connections! Feel free to drop me an email or connect on LinkedIn. Whether you're brimming with internship offers, job prospects, learning opportunities, or just need a tech-savvy problem-solver, I'd love to hear from you. Also, reach out to me if you believe I can help you somehow.
           </p>
         </div>
         <Form />
