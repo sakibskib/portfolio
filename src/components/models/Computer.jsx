@@ -13,7 +13,7 @@ export default function ComputerModel(props) {
 
   useEffect(() => {
     if (actions) {
-      // Play the first animation found, or replace with specific animation name if known
+      
       const actionNames = Object.keys(actions);
       if (actionNames.length > 0) {
         actions[actionNames[0]].play();

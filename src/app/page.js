@@ -6,9 +6,6 @@ import RenderModel from "@/components/RenderModel";
 import Navigation from "@/components/navigation";
 
 import dynamic from "next/dynamic";
-// const Wizard = dynamic(() => import("@/components/models/Wizard"), {
-//   ssr: false,
-// });
 const Robotbhai=dynamic(()=> import("@/components/models/robot"),{
   ssr:false,
 });
@@ -23,7 +20,7 @@ export default function Home() {
         src={bg}
         alt="background-image"
         fill
-        className="-z-50 w-full h-full object-cover object-center opacity-50"
+        className="-z-50 w-full h-full object-cover object-center opacity-20"
         //opacity 
       />
 
