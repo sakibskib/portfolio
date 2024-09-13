@@ -19,16 +19,16 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
-    date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    name: "Portfolio",
+    description: "Creative Portfolio Website Using Next.js and Three.js",
+    date: "2024-07-15",
+    demoLink: "https://github.com/sakibskib/portfolio",
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
-    date: "2022-06-20",
+    name: "Password Manager Extension For Chrome", 
+    description: "Fully functional password manager extension for Chrome complete with autofill and encryption",
+    date: "2024-03-20",
     demoLink: "https://artgalleryonline.example.com",
   },
   {
