@@ -50,7 +50,7 @@ const AboutDetails = () => {
         >
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=sakibskib&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            src="https://github-readme-stats-sakibskib.vercel.app/api/top-langs?username=sakibskib&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
             alt="sakibskib"
             loading="lazy"
           />
@@ -91,7 +91,7 @@ const AboutDetails = () => {
           >
             <img
               className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=sakibskib&repo=Chrome-Password-Manager-Capstone-project=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+              src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=Chrome-Password-Manager-Capstone-project=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
               alt="Github repo capstone project"
               loading="lazy"
             />
