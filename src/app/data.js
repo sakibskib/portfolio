@@ -33,10 +33,10 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
+    name: "Data RAG Pipeline",
+    description: "Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval and text generation to produce more accurate and contextually relevant responses in AI applications.",
+    date: "2024-09-19",
+    demoLink: "https://github.com/sakibskib/rag-project",
   },
   {
     id: 4,
