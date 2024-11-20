@@ -32,7 +32,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            ,,,  <sub className="font-semibold text-base">,,,,</sub>
+            4+  <sub className="font-semibold text-base">Years of Experience</sub>
           </p>
         </ItemLayout>
 
@@ -51,7 +51,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src="https://github-readme-stats-sakibskib.vercel.app/api/top-langs?username=sakibskib&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&hide=jupyter%20notebook"
-            alt="github stats"
+            alt="github language stats"
             loading="lazy"
           />
         </ItemLayout>
@@ -59,8 +59,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=sakibskib&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="sakibskib"
+            src="https://github-readme-stats-sakibskib.vercel.app/api?username=sakibskib&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}"
+            alt="sakibskib stats"
             loading="lazy"
           />
         </ItemLayout>
@@ -78,21 +78,21 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src={"https://github-readme-streak-stats.herokuapp.com?user=sakibskib&theme=dark&hide_border=true&type=png&background=EB545400&ring=4052DE&currStreakLabel=4052DE"}
-            alt="bs"
+            alt="streak stats"
             loading="lazy"
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Link
-            href="https://github.com/sakibskib/Chrome-Password-Manager-Capstone-project"
+            href="https://github.com/sakibskib/rag-project"
             target="_blank"
             className="w-full"
           >
             <img
               className="w-full h-auto"
-              src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=Chrome-Password-Manager-Capstone-project=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
-              alt="Github repo capstone project"
+              src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=rag-project=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
+              alt="Github repo rag project"
               loading="lazy"
             />
           </Link>
