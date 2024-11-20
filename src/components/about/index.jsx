@@ -59,7 +59,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats-sakibskib.vercel.app/api?username=sakibskib&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}"
+            src="https://github-readme-stats-sakibskib.vercel.app/api?username=sakibskib&theme=transparent&hide_border=true&rank_icon=github&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}"
             alt="sakibskib stats"
             loading="lazy"
           />
@@ -97,6 +97,8 @@ const AboutDetails = () => {
             />
           </Link>
         </ItemLayout>
+
+        
       </div>
     </section>
   );
