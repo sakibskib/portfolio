@@ -77,7 +77,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src={"https://github-readme-streak-stats.herokuapp.com?user=sakibskib&theme=dark&hide_border=true&type=png&background=EB545400&ring=4052DE&currStreakLabel=4052DE"}
+            src={"https://github-readme-streak-stats.herokuapp.com?user=sakibskib&theme=dark&hide_border=true&background=EB545400&ring=4052DE&currStreakLabel=4052DE"}
             alt="streak stats"
             loading="lazy"
           />
@@ -85,14 +85,16 @@ const AboutDetails = () => {
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Link
-            href="https://github.com/sakibskib/rag-project"
+            href="https://github.com/sakibskib/PassVolt-password-manager"
             target="_blank"
             className="w-full"
           >
             <img
               className="w-full h-auto"
-              src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=rag-project=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
-              alt="Github repo rag project"
+              // src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=PassVolt-password-manager"
+
+               src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=PassVolt-password-manager&transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
+              alt="PassVolt-password-manager github repo"
               loading="lazy"
             />
           </Link>
