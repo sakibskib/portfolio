@@ -8,9 +8,7 @@ For Demo checkout following link👇: <br />
 [Portfolio Website ](https://sakib.codes/) <br />
 
 
----
-# ⭐DO NOT FORGET TO STAR THIS REPO⭐
----
+
 
 ## Images of The Portfolio Website:
 

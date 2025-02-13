@@ -29,7 +29,7 @@ export const projectsData = [
     name: "Password Manager Extension For Chrome", 
     description: "Fully functional password manager extension for Chrome complete with autofill and encryption",
     date: "2024-03-20",
-    demoLink: "https://artgalleryonline.example.com",
+    demoLink: "https://github.com/sakibskib/PassVolt-password-manager",
   },
   {
     id: 3,
