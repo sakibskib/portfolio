@@ -39,7 +39,7 @@ export const projectsData = [
     demoLink: "https://github.com/sakibskib/rag-project",
   },
   {
-    id: 4,
+    id: 7,
     name: "GamingHub",
     description: "Think of it like a subreddit but to talk about your fav games",
     date: "2024-05-30",
@@ -59,13 +59,13 @@ export const projectsData = [
     date: "2024-10-01",
     demoLink: "https://github.com/sakibskib/Samosa-Selector",
   },
-  // {
-  //   id: 7,
-  //   name: "StudyBuddy",
-  //   description: "Collaborative learning platform",
-  //   date: "2022-04-18",
-  //   demoLink: "https://studybuddy.example.com",
-  // },
+  {
+    id: 4,
+    name: "LogIn - Attendance system using face recognition",
+    description: "Developed a real-time attendance system using Python, OpenCV, InsightFace, NumPy, Pandas, and machine learning algorithms for facial recognition and feature extraction. ",
+    date: "2025-01-17",
+    demoLink: "https://github.com/sakibskib/Attendance-System-Using-Face-Recognition-Web-app",
+  },
   // {
   //   id: 8,
   //   name: "TechTalk",

@@ -93,7 +93,7 @@ const AboutDetails = () => {
               className="w-full h-auto"
               // src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=PassVolt-password-manager"
 
-               src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=PassVolt-password-manager&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
+               src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=PassVolt-password-manager&hide_border=true&title_color=4052DE&text_color=4052DE&icon_color=4052DE&text_bold=false&description_lines_count=2&transparent"
               alt="PassVolt-password-manager github repo"
               loading="lazy"
             />
