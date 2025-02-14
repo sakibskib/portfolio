@@ -39,11 +39,12 @@ export const projectsData = [
     demoLink: "https://github.com/sakibskib/rag-project",
   },
   {
-    id: 7,
-    name: "GamingHub",
-    description: "Think of it like a subreddit but to talk about your fav games",
-    date: "2024-05-30",
-    demoLink: "https://github.com/sakibskib/GamingHub",
+    id: 4,
+    name: "LogIn - Attendance system using face recognition",
+    description: "Developed a real-time attendance system using Python, OpenCV, InsightFace, NumPy, Pandas, and machine learning algorithms for facial recognition and feature extraction. ",
+    date: "2025-01-17",
+    demoLink: "https://github.com/sakibskib/Attendance-System-Using-Face-Recognition-Web-app",
+    
   },
   {
     id: 5,
@@ -60,11 +61,11 @@ export const projectsData = [
     demoLink: "https://github.com/sakibskib/Samosa-Selector",
   },
   {
-    id: 4,
-    name: "LogIn - Attendance system using face recognition",
-    description: "Developed a real-time attendance system using Python, OpenCV, InsightFace, NumPy, Pandas, and machine learning algorithms for facial recognition and feature extraction. ",
-    date: "2025-01-17",
-    demoLink: "https://github.com/sakibskib/Attendance-System-Using-Face-Recognition-Web-app",
+    id: 7,
+    name: "GamingHub",
+    description: "Think of it like a subreddit but to talk about your fav games",
+    date: "2024-05-30",
+    demoLink: "https://github.com/sakibskib/GamingHub",
   },
   // {
   //   id: 8,
