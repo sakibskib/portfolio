@@ -32,6 +32,13 @@ export const projectsData = [
     demoLink: "https://github.com/sakibskib/PassVolt-password-manager",
   },
   {
+    id: 8,
+    name: "SnapSynthAI", 
+    description: "Transform your photos with the power of AI!",
+    date: "2025-01-15",
+    demoLink: "https://github.com/sakibskib/ai-photo-gen",
+  },
+  {
     id: 3,
     name: "RAG Search Pipeline",
     description: "Retrieval-Augmented Generation (RAG) Search Application with HuggingFace, LangChain, Pinecone.",
