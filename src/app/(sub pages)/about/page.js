@@ -51,8 +51,8 @@ export default function Home() {
        <Image
      src={portrait}
          alt="SK Sakib portrait"
-         width={360}
-         height={360}
+         width={480}
+         height={480}
          priority
          className="rounded-full border-4 border-accent object-cover"
        />

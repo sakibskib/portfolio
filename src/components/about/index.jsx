@@ -15,8 +15,8 @@ const AboutDetails = () => {
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
             Architect of Enchantment
           </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development amar naam sakib is powered by an array of mystical
+          {/* <p className="font-light  text-xs sm:text-sm md:text-base   ">
+            My journey in web development is powered by an array of mystical
             tools and languages, with JavaScript casting the core of my
             enchantments. I wield frameworks like React.js and Next.js with
             precision, crafting seamless portals (websites) that connect realms
@@ -25,14 +25,68 @@ const AboutDetails = () => {
             while my design skills ensure every creation is not only functional
             but visually captivating. Join me as I continue to explore new
             spells and technologies to shape the future of the web.
-          </p>
+          </p> */}
+          <div className="font-light text-xs sm:text-sm md:text-base space-y-4">
+            <h1 className="text-lg font-semibold">Hello, world!</h1>
+
+            <p>
+              I am a software engineer with a B.S. in Computer Science from the
+              University of Central Oklahoma. I have hands-on experience
+              building secure, scalable applications using Java, C/C++, Python,
+              JavaScript, TypeScript, and React.js.
+            </p>
+
+            <p>
+              I apply AI and modern tooling responsibly to enhance productivity
+              and code quality. Whether integrating the OpenAI API for
+              intelligent features, pairing with Cursor AI for streamlined
+              development, or deploying solutions on PostgreSQL, Firebase,
+              Supabase, Docker, Vercel, and Three.js, I focus on delivering performant,
+              maintainable software that drives real results.
+            </p>
+
+            <h2 className="text-base font-medium">
+              Projects During My Time at UCO
+            </h2>
+            <ul className="list-disc list-inside space-y-1">
+              <li>
+                <strong>Password Manager Chrome Extension:</strong> Implemented
+                end-to-end encryption and secure credential storage with a
+                user-centric design.
+              </li>
+              <li>
+                <strong>AI-Powered Smart Chatbot:</strong> Developed a
+                contextual support agent using the OpenAI API to enhance user
+                engagement.
+              </li>
+              <li>
+                <strong>3D Portfolio Website:</strong> Created an interactive
+                WebGL showcase to highlight design and development expertise.
+              </li>
+            </ul>
+
+            <h2 className="text-base font-medium">Certifications</h2>
+            <ul className="list-disc list-inside space-y-1">
+              <li>CodePath Web Development</li>
+              <li>CodePath Technical Interview Prep</li>
+              <li>ZTM Complete Web Development</li>
+            </ul>
+
+            <p>
+              I am passionate about continuous learning and committed to
+              leveraging cutting-edge technologies to solve complex challenges.
+              I look forward to contributing my skills and drive to a
+              forward-thinking team.
+            </p>
+          </div>
         </ItemLayout>
-          {/* experience commented out */}
+        {/* experience commented out */}
         <ItemLayout
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            1+  <sub className="font-semibold text-base">Years of Experience</sub>
+            1+{" "}
+            <sub className="font-semibold text-base">Years of Experience</sub>
           </p>
         </ItemLayout>
 
@@ -50,7 +104,7 @@ const AboutDetails = () => {
         >
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats-sakibskib.vercel.app/api/top-langs?username=sakibskib&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&hide=jupyter%20notebook,html,php"
+            src="https://github-readme-stats-sakibskib.vercel.app/api/top-langs?username=sakibskib&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&show_icons=true&icon_color=FEFE5B&text_bold=false&hide=jupyter%20notebook,html,php"
             alt="github language stats"
             loading="lazy"
           />
@@ -77,7 +131,9 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src={"https://github-readme-streak-stats.herokuapp.com?user=sakibskib&theme=dark&type=jpg&hide_border=true&type=jpg&background=EB545400&ring=4052DE&currStreakLabel=4052DE"}
+            src={
+              "https://github-readme-streak-stats.herokuapp.com?user=sakibskib&theme=dark&type=jpg&hide_border=true&type=jpg&background=EB545400&ring=4052DE&currStreakLabel=4052DE"
+            }
             alt="streak stats"
             loading="lazy"
           />
@@ -93,14 +149,12 @@ const AboutDetails = () => {
               className="w-full h-auto"
               // src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=PassVolt-password-manager"
 
-               src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=PassVolt-password-manager&hide_border=true&title_color=4052DE&text_color=4052DE&icon_color=4052DE&text_bold=false&description_lines_count=2&transparent"
+              src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=PassVolt-password-manager&hide_border=true&title_color=4052DE&text_color=4052DE&icon_color=4052DE&text_bold=false&description_lines_count=2&theme=transparent"
               alt="PassVolt-password-manager github repo"
               loading="lazy"
             />
           </Link>
         </ItemLayout>
-
-        
       </div>
     </section>
   );
