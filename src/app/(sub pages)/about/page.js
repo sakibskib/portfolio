@@ -1,6 +1,7 @@
 import Image from "next/image";
 import bg from "../../../../public/background/about-me-bg.jpg";
 import RenderModel from "@/components/RenderModel";
+import portrait from "../../../../public/images/portrait.png";
 // import HatModel from "@/components/models/HatModel";
 import AboutDetails from "@/components/about";
 import dynamic from "next/dynamic";
@@ -32,6 +33,7 @@ export default function Home() {
           <ComputerModel />
         </RenderModel>
       </div>
+         
 
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
@@ -42,7 +44,19 @@ export default function Home() {
             Meet the wizard behind this portfolio
           </p>
         </div>
+          
       </div>
+      {/*  — portrait under the computer model — */}
+     <div className="relative z-10 mt-8 flex justify-center">
+       <Image
+     src={portrait}
+         alt="SK Sakib portrait"
+         width={360}
+         height={360}
+         priority
+         className="rounded-full border-4 border-accent object-cover"
+       />
+     </div>
 
       <AboutDetails />
     </>
