@@ -4,6 +4,7 @@ import clsx from "clsx";
 import FireFliesBackground from "@/components/FireFliesBackground";
 import Sound from "@/components/Sound";
 import Footer from "@/app/footer";
+import Navigation from "@/components/navigation";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
       >
         {children}
         <FireFliesBackground />
+        <Navigation showOrbit={false} showToggle={true} />
         <Sound />
         <div id="my-modal" />
         <Footer/>

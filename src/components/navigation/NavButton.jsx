@@ -66,15 +66,13 @@ const NavButton = ({
               variants={item}
               href={link}
               target={newTab ? "_blank" : "_self"}
-              className="text-foreground  rounded-full flex items-center justify-center
-        custom-bg
-        "
+              className="flex items-center justify-center rounded-full border border-accent/70 bg-black/70 text-foreground shadow-[0_0_22px_rgba(64,83,222,0.35)] backdrop-blur-md transition-transform duration-200 hover:-translate-y-1 hover:border-accent hover:bg-accent hover:text-background"
               aria-label={label}
               name={label}
               prefetch={false}
               scroll={false}
             >
-              <span className="relative  w-14 h-14 p-4 animate-spin-slow-reverse group-hover:pause hover:text-accent">
+              <span className="relative h-14 w-14 p-4 animate-spin-slow-reverse group-hover:pause">
                 {getIcon(icon)}
 
                 <span className="peer bg-transparent absolute top-0 left-0 w-full h-full" />
@@ -91,15 +89,13 @@ const NavButton = ({
               variants={item}
               href={link}
               target={newTab ? "_blank" : "_self"}
-              className="text-foreground  rounded-full flex items-center justify-center
-        custom-bg
-        "
+              className="flex items-center justify-center rounded-full border border-accent/70 bg-black/70 text-foreground shadow-[0_0_22px_rgba(64,83,222,0.35)] backdrop-blur-md transition-transform duration-200 hover:-translate-y-1 hover:border-accent hover:bg-accent hover:text-background"
               aria-label={label}
               name={label}
               prefetch={false}
               scroll={false}
             >
-              <span className="relative  w-12 h-10  xs:w-14 xs:h-14 p-2.5 xs:p-4 hover:text-accent">
+              <span className="relative h-10 w-12 p-2.5 xs:h-14 xs:w-14 xs:p-4">
                 {getIcon(icon)}
 
                 <span className="peer bg-transparent absolute top-0 left-0 w-full h-full" />
