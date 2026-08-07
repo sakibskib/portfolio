@@ -23,9 +23,21 @@ export default function Contact() {
             summon the wizard
           </h1>
           <p className="text-center font-light text-sm xs:text-base">
-          Hi there! I/m SK Sakib, a computer science enthusiast with a knack for code, collaboration, and creation. Immersed in the world of software architecture, web innovation, and machine learning, I thrive on turning complex problems into elegantly crafted solutions.
+          Hi there! I&apos;m SK Sakib, a software developer working at the 
+          intersection of higher-education systems and full-stack 
+          engineering. I build and maintain the platforms behind degree 
+          audits and transfer articulation for 14,000+ students, and I 
+          spend my own time on projects that push into AI — semantic 
+          search, vector embeddings, and pipelines that turn messy data 
+          into something usable.
           <br/>
-            Let/s forge new connections! Feel free to drop me an email or connect on LinkedIn. Whether you/re brimming with internship offers, job prospects, learning opportunities, or just need a tech-savvy problem-solver, I/d love to hear from you. Also, reach out to me if you believe I can help you somehow.
+          <br/>
+          <br/>
+           I&apos;m interested in application analyst roles, full-stack work, 
+          and anything that sits between complex institutional data and 
+          the people who depend on it. If you&apos;re hiring, building 
+          something interesting, or just want to talk shop, drop me an 
+          email or connect on LinkedIn.
           </p>
         </div>
         <Form />
