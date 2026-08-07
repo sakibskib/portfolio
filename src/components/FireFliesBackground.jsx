@@ -26,12 +26,12 @@ const FireFliesBackground = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 w-full h-full -z-10 overflow-hidden">
+    <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden" aria-hidden="true">
       {fireflies.map((firefly) => {
         return (
           <div
             key={firefly.id}
-            className="absolute roudned-full w-[15px] h-[15px] bg-firefly-radial"
+            className="absolute rounded-full w-[15px] h-[15px] bg-firefly-radial"
             style={{
               top: firefly.top,
               left: firefly.left,

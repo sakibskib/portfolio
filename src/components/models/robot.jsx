@@ -11,7 +11,7 @@ Title: Robot Playground
 
 // import React from 'react'
 import React, { useRef, useMemo, useEffect } from 'react';
-import { useGraph } from '@react-three/fiber'
+import { useFrame, useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { SkeletonUtils } from 'three-stdlib'
 
@@ -38,6 +38,12 @@ export default function Robotbhai(props) {
       }
     }
   }, [actions]);
+
+  useFrame(() => {
+    if (!group.current) return
+
+    group.current.rotation.y += 0.007
+  })
 
 
   return (

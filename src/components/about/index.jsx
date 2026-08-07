@@ -2,6 +2,7 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
 import Link from "next/link";
+import Image from "next/image";
 
 const AboutDetails = () => {
   return (
@@ -28,55 +29,64 @@ const AboutDetails = () => {
           </p> */}
           <div className="font-light text-xs sm:text-sm md:text-base space-y-4">
             <h1 className="text-lg font-semibold">Hello, world!</h1>
-
+            <br/>
             <p>
-              I am a software engineer with a B.S. in Computer Science from the
-              University of Central Oklahoma. I have hands-on experience
-              building secure, scalable applications using Java, C/C++, Python,
-              JavaScript, TypeScript, and React.js.
+              I&apos;m a software developer at the University of Central Oklahoma, 
+              where I build and maintain the systems behind degree audits, 
+              curriculum programming, and transfer credit processing for more 
+              than 14,000 students. Day to day that means Scribe-based 
+              curriculum logic in DegreeWorks, SQL data solutions, and working 
+              with academic departments to keep audits accurate as catalogs 
+              change.
             </p>
-
+            <br/>
+              
+            <br/>
+            
             <p>
-              I apply AI and modern tooling responsibly to enhance productivity
-              and code quality. Whether integrating the OpenAI API for
-              intelligent features, pairing with Cursor AI for streamlined
-              development, or deploying solutions on PostgreSQL, Firebase,
-              Supabase, Docker, Vercel, and Three.js, I focus on delivering performant,
-              maintainable software that drives real results.
-            </p>
+              Outside of that work — and often alongside it — I build 
+              full-stack applications and AI tooling. I hold a B.S. in Computer 
+              Science from UCO, and I work across C#/.NET, Python, JavaScript, 
+              TypeScript, React, and Next.js, with PostgreSQL, Supabase, 
+              Docker, and Three.js in the mix.
 
+            </p>
+            <br/>
+            <br/>
             <h2 className="text-base font-medium">
-              Projects During My Time at UCO
+              Selected Projects
             </h2>
             <ul className="list-disc list-inside space-y-1">
               <li>
-                <strong>Password Manager Chrome Extension:</strong> Implemented
-                end-to-end encryption and secure credential storage with a
-                user-centric design.
+                <strong>AI Semantic Course Equivalency Engine:</strong> A semantic matching 
+                  system that automates transfer course equivalency across a 
+                  3,300+ course catalog, using sentence-transformer embeddings 
+                  and cosine similarity to rank matches with confidence scores. 
+                  Built on a Python ETL pipeline that normalizes 34 nested JSON 
+                  catalog files.
               </li>
               <li>
-                <strong>AI-Powered Smart Chatbot:</strong> Developed a
-                contextual support agent using the OpenAI API to enhance user
-                engagement.
+                <strong> PassVolt — Password Manager:</strong> A secure cross-platform password 
+                  manager built with C# (.NET), PostgreSQL, and client-side 
+                  encryption, available as both a Chrome extension and desktop app.
               </li>
               <li>
-                <strong>3D Portfolio Website:</strong> Created an interactive
-                WebGL showcase to highlight design and development expertise.
+                <strong>3D Portfolio Website:</strong> This site — an interactive WebGL showcase 
+                  built with Next.js, Three.js, and Framer Motion.
               </li>
             </ul>
 
             <h2 className="text-base font-medium">Certifications</h2>
             <ul className="list-disc list-inside space-y-1">
-              <li>CodePath Web Development</li>
-              <li>CodePath Technical Interview Prep</li>
-              <li>ZTM Complete Web Development</li>
+              <li>CodePath: Applied AI Engineer</li>
+              <li>CodePath: Cybersecurity</li>
+              <li>CodePath: Web Development</li>
             </ul>
 
             <p>
-              I am passionate about continuous learning and committed to
-              leveraging cutting-edge technologies to solve complex challenges.
-              I look forward to contributing my skills and drive to a
-              forward-thinking team.
+              I&apos;m drawn to problems where messy institutional data meets 
+              software that people actually have to use. If that sounds like 
+              something you&apos;re working on, I&apos;d like to hear about it.
             </p>
           </div>
         </ItemLayout>
@@ -102,40 +112,48 @@ const AboutDetails = () => {
         <ItemLayout
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
-          <img
+          <Image
             className="w-full h-auto"
             src="https://github-readme-stats-sakibskib.vercel.app/api/top-langs?username=sakibskib&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&show_icons=true&icon_color=FEFE5B&text_bold=false&hide=jupyter%20notebook,html,php"
             alt="github language stats"
-            loading="lazy"
+            width={400}
+            height={200}
+            unoptimized
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <img
+          <Image
             className="w-full h-auto"
-            src="https://github-readme-stats-sakibskib.vercel.app/api?username=sakibskib&theme=transparent&hide_border=true&rank_icon=github&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}"
+            src="https://github-readme-stats-sakibskib.vercel.app/api?username=sakibskib&theme=transparent&hide_border=true&rank_icon=github&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
             alt="sakibskib stats"
-            loading="lazy"
+            width={800}
+            height={300}
+            unoptimized
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>
-          <img
+          <Image
             className="w-full h-auto"
             src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,flutter,azure,d3,ai,docker,firebase,gatsby,git,github,graphql,cpp,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,mysql,java,js,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="CodeBucks"
-            loading="lazy"
+            alt="Skills Icons I use"
+            width={1200}
+            height={120}
+            unoptimized
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <img
+          <Image
             className="w-full h-auto"
             src={
               "https://github-readme-streak-stats.herokuapp.com?user=sakibskib&theme=dark&type=jpg&hide_border=true&type=jpg&background=EB545400&ring=4052DE&currStreakLabel=4052DE"
             }
             alt="streak stats"
-            loading="lazy"
+            width={800}
+            height={200}
+            unoptimized
           />
         </ItemLayout>
 
@@ -145,13 +163,14 @@ const AboutDetails = () => {
             target="_blank"
             className="w-full"
           >
-            <img
+            <Image
               className="w-full h-auto"
               // src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=PassVolt-password-manager"
-
               src="https://github-readme-stats-sakibskib.vercel.app/api/pin/?username=sakibskib&repo=PassVolt-password-manager&hide_border=true&title_color=4052DE&text_color=4052DE&icon_color=4052DE&text_bold=false&description_lines_count=2&theme=transparent"
               alt="PassVolt-password-manager github repo"
-              loading="lazy"
+              width={800}
+              height={200}
+              unoptimized
             />
           </Link>
         </ItemLayout>
